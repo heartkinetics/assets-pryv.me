@@ -28,7 +28,7 @@ For Pryv Lab (pryv.me) we deploy the assests using github gh-pages.
   "css": {
     "default": "default.css"
   },
-  "lib-javascript": {
+  "lib-js": {
     "login-button": {
       "css": "lib-javascript-button.css"
     }

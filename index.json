@@ -6,7 +6,7 @@
   "css": {
     "default": {"url": "default.css"}
   },
-  "libJavascript": {
+  "lib-js": {
     "buttonSignIn": {
       "css": "libJavascript/buttonSignIn.css",
       "html": "libJavascript/buttonSignIn.html",
