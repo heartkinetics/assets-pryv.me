@@ -1,10 +1,10 @@
 # Visual Assets for lib-js
 
-This document is a sub-part of https://github.com/pryv/assets-pryv.me documentation.
+This document is a sub-part of the [Pryv Lab assets](https://github.com/pryv/assets-pryv.me) documentation.
 
-It describes the external assets used by https://github.com/pryv/lib-js 
+It describes the visual assets used by the [Pryv JavaScript Library](https://github.com/pryv/lib-js). 
 
-## Content of `lib-js`properties for assets
+## Content of `lib-js` assets properties
 
 ```json
 { 
@@ -25,15 +25,15 @@ It describes the external assets used by https://github.com/pryv/lib-js
 - **html** The HTML code representing the Button
 - **css** The CSS code related to the Button
 - **messages** To customize the different messages depending on the state of the Auth Process
-  - LOADING: During the loading of the button (Usually not visible as the loading takes care in less that 150ms)
+  - LOADING: During the loading of the button (Usually not visible as the loading takes less that 150ms)
   - ERROR: Display on Error
-  - LOGIN: Text displayed on the button when a Login or Sign-in is required
-  - LOGOUT_CONFIRM: Text displayed in an alert message box to confirm Log-out or Sign-out
+  - LOGIN: Text displayed when a Login is required
+  - LOGOUT_CONFIRM: Text displayed in an alert message box to confirm Log-out
 
 #### Files
 
-- **buttonSignIn.css** CSS content (declared by property css)
-- **buttonSignIn.html** HTML content (declared by property html)
+- **buttonSignIn.css** CSS content (declared by `css` property)
+- **buttonSignIn.html** HTML content (declared by `html` property)
 - **buttonSignIn.png** Image for the button for non CSS3 compatible browsers
 - **buttonSignInLogoOnly.png** Image for the button for CSS3 compatible browsers
-- **buttonSignInMessages.json** Messages definitions (declared by property messages)
+- **buttonSignInMessages.json** Messages definitions (declared by `messages` property)
