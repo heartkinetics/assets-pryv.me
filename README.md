@@ -30,14 +30,11 @@ Example: https://reg.pryv.me/service/infos
 ### index.json
 
 - `baseUrl` should be used to resolve all relative ressources path (if not starting with `http(s)://`). If `undefined` or set to `null`, `baseUrl` should be treated as the location of the `index.json` file. The logic is similar to `base href` attribute in HTML pages.
-
 - `favicon` should have at least a `default` property exposing an `.ico` file.
-
 - `css` should have at least a `default` property exposing a `.css` file.
-
 - `{app-name}` exposes customs assets per application.
-
-  ​	See: https://github.com/pryv/assets-pryv.me/tree/master/lib-js as example of App specific definitions
+- `lib-js`: [./lib-js](https://github.com/pryv/assets-pryv.me/tree/master/lib-js) as example of App specific definitions
+  - `app-web-auth3`:  [./app-web-auth3](https://github.com/pryv/assets-pryv.me/tree/master/app-web-auth3) as example of App specific definitions
 
 ```json
 { 
