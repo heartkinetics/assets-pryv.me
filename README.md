@@ -33,8 +33,8 @@ Example: https://reg.pryv.me/service/infos
 - `favicon` should have at least a `default` property exposing an `.ico` file.
 - `css` should have at least a `default` property exposing a `.css` file.
 - `{app-name}` exposes customs assets per application.
-- `lib-js`: [./lib-js](https://github.com/pryv/assets-pryv.me/tree/master/lib-js) as example of App specific definitions
-  - `app-web-auth3`:  [./app-web-auth3](https://github.com/pryv/assets-pryv.me/tree/master/app-web-auth3) as example of App specific definitions
+- `lib-js`: [./lib-js](lib-js) as example of App specific definitions
+- `app-web-auth3`:  [./app-web-auth3](app-web-auth3) as example of App specific definitions
 
 ```json
 { 
